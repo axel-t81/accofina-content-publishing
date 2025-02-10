@@ -1,2 +1,8 @@
-# accofina-website
-Repo for the new, updated Accofina website
+# accofina-content publishing
+
+### Description
+Accofina publishes books, online tutorials, and other financial literacy tools.
+This repo is for the website, other software, and other material used in the business.
+
+### Initial Goal
+Store the code for the Accofina website.
