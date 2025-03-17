@@ -1,14 +1,14 @@
 /* Custom Properties */
 :root {
     /* Colors */
-    --color-primary: #2563eb;
-    --color-primary-dark: #1d4ed8;
-    --color-secondary: #475569;
-    --color-accent: #f59e0b;
-    --color-background: #ffffff;
-    --color-text: #1f2937;
+    --color-primary: #157384;
+    --color-primary-dark: #1d5b66;
+    --color-secondary: #444440;
+    --color-accent: #08c8eb;
+    --color-background: #eeeee0;
+    --color-text: #00154f;
     --color-text-light: #6b7280;
-    --color-border: #e5e7eb;
+    --color-border: #0847eb;
     
     /* Typography */
     --font-primary: 'Inter', sans-serif;
