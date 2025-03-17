@@ -6,7 +6,7 @@
     --color-secondary: #444440;
     --color-accent: #08c8eb;
     --color-background: #eeeee0;
-    --color-text: #00154f;
+    --color-text: #000000;
     --color-text-light: #6b7280;
     --color-border: #0847eb;
     
@@ -50,11 +50,16 @@ img {
     height: auto;
 }
 
+h2 {
+    margin-bottom: 1%;
+}
+
 /* Container */
 .container {
     max-width: var(--container-width);
     margin: 0 auto;
     padding: 0 var(--container-padding);
+    margin-top: 3%;
 }
 
 /* Header & Navigation */
@@ -81,6 +86,15 @@ img {
     font-weight: 700;
     color: var(--color-primary);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
 
 .nav-links {
@@ -146,13 +160,14 @@ img {
 
 .cta-primary {
     background-color: var(--color-accent);
-    color: white;
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
 
 .cta-secondary {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: 2px solid white;
+    background-color: #444440;
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
 
 .cta-primary:hover, .cta-secondary:hover {
@@ -332,6 +347,11 @@ img {
     .newsletter-form {
         flex-direction: column;
         padding: 0 var(--spacing-md);
+    }
+
+    .logo-img {
+        width: 32px;
+        height: 32px;
     }
 }
 
