@@ -1,19 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Accofina - Your trusted source for accounting and finance training and education.">
     <title>Accofina - Accounting and Finance Training for All</title>
-    <link rel="stylesheet" href="/css/style.css">
-  </head>
-  <body>
-    <h1>Hello Accofina!</h1>
-    <p>Para 1 post Tailwind and Bootstrap thoughts. 
-        <br>- Get the foundations right! Slow and steady wins the race!</p>
-	<script src="index.js"></script>
-    <footer>Last Update:
-        <br>24th July, 2024.
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="/">Accofina</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="youtube.html">YouTube</a></li>
+                <li><a href="resources.html">Free Resources</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Master Accounting & Finance</h1>
+                <p class="hero-subtitle">Expert training resources to advance your studies, business and career!</p>
+                <div class="cta-buttons">
+                    <a href="books.html" class="cta-primary">Explore Books</a>
+                    <a href="resources.html" class="cta-secondary">Free Resources</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-preview">
+            <div class="container">
+                <h2>Welcome to Accofina</h2>
+                <p>Your journey to mastering accounting and finance starts here. Discover expert-led content, practical resources, and comprehensive training materials.</p>
+            </div>
+        </section>
+
+        <!-- Featured Content -->
+        <section class="featured-content">
+            <div class="container">
+                <h2>Featured Content</h2>
+                <div class="content-grid">
+                    <div class="feature-card">
+                        <h3>Latest Book</h3>
+                        <div class="book-preview">
+                            <!-- Book cover image will go here -->
+                            <img src="images/book-placeholder.jpg" alt="Latest Book Cover" class="placeholder">
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Latest Video</h3>
+                        <div class="video-container">
+                            <!-- YouTube embed will go here -->
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Free Resource</h3>
+                        <div class="resource-preview">
+                            <p>Download our latest free resources, guides and templates.</p>
+                            <a href="resources.html" class="btn-download">Get it Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Start Learning Today</h2>
+                <p>Join our community of finance professionals and take your career to the next level.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn-subscribe">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="youtube.html">YouTube</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Accofina. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
-  </body>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
